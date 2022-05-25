@@ -1,5 +1,4 @@
-import React from 'react';
-import {useState} from 'react'
+import React, {useState} from 'react'
 import { StyleSheet, Text, View, TouchableOpacity, Button } from 'react-native';
 
 export default function App() {
@@ -66,7 +65,7 @@ export default function App() {
       <View style={styles.results}>
         <Text style={styles.historyText}>{lastNumber}</Text>
         <Text style={styles.resultText}>{currentNumber}</Text>
-      <View>
+      </View>
 
       {/* Area onde os botões são exibidos*/}
       <View style={styles.buttons}>
@@ -85,6 +84,7 @@ export default function App() {
     </View>
   );
 }
+
 
 // Estilização
 const styles = StyleSheet.create({
